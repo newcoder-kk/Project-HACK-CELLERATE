@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - bootstrap sidebar</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="mnb navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="ic fa fa-bars"></i>
+      </button>
+      <div style="padding: 15px 0;">
+         <a href="#" id="msbo"><i class="ic fa fa-bars"></i></a>
+      </div>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">En</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Draude Oba <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Upgrade</a></li>
+            <li><a href="#">Help</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fa fa-bell-o"></i></a></li>
+        <li><a href="#"><i class="fa fa-comment-o"></i></a></li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <input type="text" class="form-control" placeholder="Search...">
+      </form>
+    </div>
+  </div>
+</nav>
+<!--msb: main sidebar-->
+<div class="msb" id="msb">
+		<nav class="navbar navbar-default" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<div class="brand-wrapper">
+					<!-- Brand -->
+					<div class="brand-name-wrapper">
+						<a class="navbar-brand" href="#">
+							G EDU
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Main Menu -->
+			<div class="side-menu-container">
+				<ul class="nav navbar-nav">
+
+					<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+					<li class="active"><a href="#"><i class="fa fa-puzzle-piece"></i> Study Materials</a></li>
+					<li><a href="#"><i class="fa fa-heart"></i> Practice Tests</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-signal"></span> Expert Tips</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>  
+</div>
+    <!-- Home section -->
+    <section id="home" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-4">Exam Prep</h1>
+                    <p class="lead">Prepare for your competitive exams with our study materials, practice tests, and
+                        expert tips.</p>
+                    <a href="#study-materials" class="btn btn-primary btn-lg" style="border-radius: 25px;">Get
+                        Started</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="learning_styles.webp" alt="Students Studying" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Study Materials section -->
+    <section id="study-materials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Study Materials</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/book.jpg" class="card-img-top" alt="Book">
+                        <div class="card-body">
+                            <h5 class="card-title">Textbooks</h5>
+                            <p class="card-text">Access our collection of textbooks for different subjects and levels.
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/notes.jpg" class="card-img-top" alt="Notes">
+                        <div class="card-body">
+                            <h5 class="card-title">Class Notes</h5>
+                            <p class="card-text">Browse through our extensive collection of class notes for different
+                                topics.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/video-tutorial.jpg" class="card-img-top" alt="Video Tutorial">
+                        <div class="card-body">
+                            <h5 class="card-title">Video Tutorials</h5>
+                            <p class="card-text">Watch video tutorials on various topics from our expert teachers.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Practice Tests section -->
+    <section id="practice-tests" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Practice Tests</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/mock-test.jpg" class="card-img-top" alt="Mock Test">
+                        <div class="card-body">
+                            <h5 class="card-title">Mock Tests</h5>
+                            <p class="card-text">Take mock tests to gauge your performance and improve your scores.</p>
+                            <a href="#" class="btn btn-primary">Take a Test</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/quiz.jpg" class="card-img-top" alt="Quiz">
+                        <div class="card-body">
+                            <h5 class="card-title">Weekly Quizzes</h5>
+                            <p class="card-text">Take our weekly quizzes to test your knowledge on different subjects.
+                            </p>
+                            <a href="#" class="btn btn-primary">Take a Quiz</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/previous-year-paper.jpg" class="card-img-top" alt="Previous Year Paper">
+                        <div class="card-body">
+                            <h5 class="card-title">Previous Year Papers</h5>
+                            <p class="card-text">Practice previous year papers to get an idea of the exam pattern.</p>
+                            <a href="#" class="btn btn-primary">Download Papers</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Expert Tips section -->
+    <section id="expert-tips" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Expert Tips</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/time-management.jpg" class="card-img-top" alt="Time Management">
+                        <div class="card-body">
+                            <h5 class="card-title">Time Management</h5>
+                            <p class="card-text">Learn how to manage your time effectively during exams from our
+                                experts.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/study-habits.jpg" class="card-img-top" alt="Study Habits">
+                        <div class="card-body">
+                            <h5 class="card-title">Study Habits</h5>
+                            <p class="card-text">Discover effective study habits that can help you score better in
+                                exams.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/test-taking-tips.jpg" class="card-img-top" alt="Test Taking Tips">
+                        <div class="card-body">
+                            <h5 class="card-title">Test Taking Tips</h5>
+                            <p class="card-text">Get expert tips on how to tackle different types of questions during
+                                exams.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
