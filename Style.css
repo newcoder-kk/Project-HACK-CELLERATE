@@ -1,0 +1,21 @@
+.pwadesktop-srchbox {
+    cursor: pointer;
+    padding: 10px 10px 11px 15px;
+    line-height: 23px;
+    background: #bd1717;
+    color: #666;
+    border-radius: 25px;
+    position: relative;
+    font-size: 14px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.20), 0 0 1px 0 rgba(0, 0, 0, 0.81);
+}
+
+.a {
+    color: aqua;
+}
+
+.header-class {
+    display: block;
+    color: aquamarine;
+    position: relative;
+}
